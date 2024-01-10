@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.Container{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100%;
+    background:linear-gradient(to right, rgb(236, 45, 112),rgb(162, 79, 245));
+}
+form{
+    margin-left: 7%;
+    flex-direction: center;
+    margin-top:10px;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    border: 1px solid white;
+    border-radius:15px;
+}
+h1{
+    margin-left: 35%;
+    margin-top: 15px;
+}
+.firstname{
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.firstname label{
+    margin-left:35px;
+}
+.firstname input{
+    margin-left:35px;
+    border:3px solid none;
+    width:75%;
+    height:25px;
+    border-radius: 8.5px;
+    outline:none;
+    border:none;
+}
+
+.lastname{
+  
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.lastname label{
+    margin-left:35px;
+}
+.lastname input{
+    margin-left:35px;
+    border:3px solid none;
+    width:75%;
+    height:25px;
+    border-radius: 8.5px;
+    outline:none;
+    border:none;
+}
+
+.email{
+
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.email label{
+    margin-left:35px;
+}
+.email input{
+    margin-left:35px;
+    border:3px solid none;
+    width:75%;
+    height:25px;
+    border-radius: 8.5px;
+    outline:none;
+    border:none;
+}
+
+.password{
+    
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.password label{
+    margin-left:35px;
+}
+.password input{
+    margin-left:35px;
+    border:3px solid none;
+    width:75%;
+    height:25px;
+    border-radius: 8.5px;
+    outline:none;
+    border:none;
+}
+.cpassword{
+
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.cpassword label{
+    margin-left:35px;
+}
+.cpassword input{
+    margin-left:35px;
+    border:3px solid none;
+    width:75%;
+    height:25px;
+    border-radius: 8.5px;
+    outline:none;
+    border:none;
+}
+
+.submit button{
+    margin-top: 20px;
+    margin-left:52px;
+    margin-bottom:20px;
+    border:3px solid none;
+    width:72%;
+    height:25px;
+    outline:black;
+    border-radius:5px;
+    border:none;
+    background:rgb(154, 239, 154);
+}
+.terms{
+    margin-left: 20px;
+    padding:20px;
+}
+.already{
+    margin-left: 7%;
+    padding: 20px;
+}
+.already a{
+    color:bisque;
+}
